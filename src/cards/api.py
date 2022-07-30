@@ -123,3 +123,10 @@ class CardsDB:
 
     def path(self):
         return self._db_path
+
+    def placeholder_for_covtest_to_fail(self):
+        print("This will never be run")
+        print("This will never be run")
+        print("This will never be run")
+        print("This will never be run")
+        print("This will never be run")
